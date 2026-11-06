@@ -84,7 +84,7 @@ python3 tools/build.py --skip-webui
 
 ## 🙏 致敬与鸣谢
 
-MyAdBlock 在 [Luoning77/MyAdBlock](https://github.com/Luoning77/MyAdBlock) 独立开发和维护。向 [liuzq2002/Adguard-Home-For-Magisk-Mod](https://github.com/liuzq2002/Adguard-Home-For-Magisk-Mod) 及 [Luoning77 的参考分支](https://github.com/Luoning77/Adguard-Home-For-Magisk-Mod) 致敬，感谢它们为在 Root 模块中运行 AdGuard Home 提供的探索与启发。
+MyAdBlock 在 [Luoning77/MyAdBlock](https://github.com/Luoning77/MyAdBlock) 独立开发和维护。向 [liuzq2002/Adguard-Home-For-Magisk-Mod](https://github.com/liuzq2002/Adguard-Home-For-Magisk-Mod) 致敬，感谢它为在 Root 模块中运行 AdGuard Home 提供的探索与启发。
 
 原项目仅用于理解实现思路与安全审计。MyAdBlock 重新实现了控制层、网络回退、配置管理和 Miuix WebUI，没有移植原项目的 App 数据清理、IPv6 DROP、代理改写或飞行模式操作；审计记录见 [REFERENCE_AUDIT](docs/REFERENCE_AUDIT.md)。
 

@@ -62,7 +62,7 @@ The interface uses Miuix 0.9.4 and Xiaomi’s original offline MiSans VF font. H
 
 ## Acknowledgements
 
-MyAdBlock is independently developed and maintained at [Luoning77/MyAdBlock](https://github.com/Luoning77/MyAdBlock). We pay tribute to [liuzq2002/Adguard-Home-For-Magisk-Mod](https://github.com/liuzq2002/Adguard-Home-For-Magisk-Mod) and [Luoning77's reference fork](https://github.com/Luoning77/Adguard-Home-For-Magisk-Mod) for their exploration of running AdGuard Home as a root module.
+MyAdBlock is independently developed and maintained at [Luoning77/MyAdBlock](https://github.com/Luoning77/MyAdBlock). We pay tribute to [liuzq2002/Adguard-Home-For-Magisk-Mod](https://github.com/liuzq2002/Adguard-Home-For-Magisk-Mod) for its exploration of running AdGuard Home as a root module.
 
 The reference project was studied for ideas and safety auditing. MyAdBlock implements its own controller, network fallback, configuration management and Miuix WebUI. No app-data cleanup, IPv6 DROP, proxy rewriting or airplane-mode operations were copied. See the [reference audit](docs/REFERENCE_AUDIT.md).
 
