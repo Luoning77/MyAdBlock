@@ -1,0 +1,74 @@
+# 本机项目上下文、参考源码与私人构建输入
+/prompt.md
+/reference/
+/private/
+
+# 下载缓存、本地工具链与构建产物
+/.cache/
+/.tools/
+build/
+dist/
+out/
+.gradle/
+.kotlin/
+node_modules/
+.npm/
+.yarn/cache/
+local.properties
+/myadblock
+/myadblock-host
+/AdGuardHome
+*.test
+*.download
+
+# Python 工具缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 本地运行数据、配置备份和授权材料（可能含凭据或查询日志）
+/data/
+/run/
+/backups/
+/simulation/
+/AdGuardHome.yaml
+*.secret
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# 测试报告、性能采样与临时文件
+/coverage/
+/coverage.out
+*.prof
+*.log
+*.log.*
+*.tmp
+*.temp
+/tmp/
+/temp/
+*~
+*.swp
+*.swo
+
+# 编辑器本地设置与操作系统文件
+.idea/
+.vscode/
+*.iml
+.DS_Store
+._*
+.AppleDouble/
+Thumbs.db
+Desktop.ini
+
+# 保留可共享的设计上下文，忽略本机设计工具状态
+/.impeccable/*
+!/.impeccable/design.json
+
+# 不忽略 Gradle Wrapper、依赖锁文件、规则快照、字体及许可证；
+# 它们是离线构建与依赖审计所需的公开输入。

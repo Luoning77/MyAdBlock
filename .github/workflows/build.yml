@@ -1,0 +1,57 @@
+name: Build and verify (no publication)
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  linux:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff # v5
+        with:
+          go-version: '1.25.3'
+      - uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3 # v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '26.11.1'
+      - name: Android SDK components
+        run: |
+          set +o pipefail
+          yes | sdkmanager --licenses > /dev/null
+          set -o pipefail
+          sdkmanager 'platforms;android-37.0' 'build-tools;36.0.0'
+      - name: Download verified core and test core
+        run: |
+          python3 tools/fetch.py
+          mkdir -p .cache/native-agh
+          tar -xzf .cache/agh-linux-amd64.tar.gz -C .cache/native-agh
+      - name: Go + pinned AGH integration + static checks
+        env:
+          GO: go
+          AGH_TEST_BINARY: ${{ github.workspace }}/.cache/native-agh/AdGuardHome/AdGuardHome
+        run: tests/test.sh
+      - name: Isolated real NAT + conntrack integration
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y iptables iproute2
+          go test -c ./internal/network -o /tmp/myadblock-network.test
+          sudo unshare --net env MYADBLOCK_NETNS_TEST=1 /tmp/myadblock-network.test -test.v -test.run '^TestIsolatedLinuxNATAndConntrack$'
+      - name: Compile Miuix UI
+        env:
+          npm_config_registry: https://registry.npmmirror.com
+        run: webui/gradlew --no-daemon jsBrowserDistribution
+      - name: Package twice and compare
+        env:
+          GO: go
+        run: |
+          python3 tools/build.py --skip-webui
+          cp dist/*.zip /tmp/myadblock-first.zip
+          python3 tools/build.py --skip-webui
+          cmp /tmp/myadblock-first.zip dist/*.zip
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: MyAdBlock-arm64
+          path: dist/*

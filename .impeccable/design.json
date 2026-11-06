@@ -1,0 +1,625 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-05T12:44:40.381355+00:00",
+  "title": "Design System: MyAdBlock",
+  "extensions": {
+    "colorMeta": {
+      "light-primary": {
+        "role": "primary",
+        "displayName": "浅色 · primary",
+        "tonalRamp": [
+          "oklch(15% 0.0300 259.7)",
+          "oklch(27% 0.0660 259.7)",
+          "oklch(39% 0.0960 259.7)",
+          "oklch(51% 0.1200 259.7)",
+          "oklch(63% 0.1200 259.7)",
+          "oklch(75% 0.0960 259.7)",
+          "oklch(87% 0.0540 259.7)",
+          "oklch(95% 0.0180 259.7)"
+        ]
+      },
+      "dark-primary": {
+        "role": "primary",
+        "displayName": "深色 · primary",
+        "tonalRamp": [
+          "oklch(15% 0.0300 259.2)",
+          "oklch(27% 0.0660 259.2)",
+          "oklch(39% 0.0960 259.2)",
+          "oklch(51% 0.1200 259.2)",
+          "oklch(63% 0.1200 259.2)",
+          "oklch(75% 0.0960 259.2)",
+          "oklch(87% 0.0540 259.2)",
+          "oklch(95% 0.0180 259.2)"
+        ]
+      },
+      "light-error": {
+        "role": "error",
+        "displayName": "浅色 · error",
+        "tonalRamp": [
+          "oklch(15% 0.0300 29.6)",
+          "oklch(27% 0.0660 29.6)",
+          "oklch(39% 0.0960 29.6)",
+          "oklch(51% 0.1200 29.6)",
+          "oklch(63% 0.1200 29.6)",
+          "oklch(75% 0.0960 29.6)",
+          "oklch(87% 0.0540 29.6)",
+          "oklch(95% 0.0180 29.6)"
+        ]
+      },
+      "dark-error": {
+        "role": "error",
+        "displayName": "深色 · error",
+        "tonalRamp": [
+          "oklch(15% 0.0300 28.2)",
+          "oklch(27% 0.0660 28.2)",
+          "oklch(39% 0.0960 28.2)",
+          "oklch(51% 0.1200 28.2)",
+          "oklch(63% 0.1200 28.2)",
+          "oklch(75% 0.0960 28.2)",
+          "oklch(87% 0.0540 28.2)",
+          "oklch(95% 0.0180 28.2)"
+        ]
+      },
+      "light-error-container": {
+        "role": "error",
+        "displayName": "浅色 · error-container",
+        "tonalRamp": [
+          "oklch(15% 0.0020 36.6)",
+          "oklch(27% 0.0044 36.6)",
+          "oklch(39% 0.0064 36.6)",
+          "oklch(51% 0.0080 36.6)",
+          "oklch(63% 0.0080 36.6)",
+          "oklch(75% 0.0064 36.6)",
+          "oklch(87% 0.0036 36.6)",
+          "oklch(95% 0.0012 36.6)"
+        ]
+      },
+      "dark-error-container": {
+        "role": "error",
+        "displayName": "深色 · error-container",
+        "tonalRamp": [
+          "oklch(15% 0.0167 30.5)",
+          "oklch(27% 0.0367 30.5)",
+          "oklch(39% 0.0534 30.5)",
+          "oklch(51% 0.0667 30.5)",
+          "oklch(63% 0.0667 30.5)",
+          "oklch(75% 0.0534 30.5)",
+          "oklch(87% 0.0300 30.5)",
+          "oklch(95% 0.0100 30.5)"
+        ]
+      },
+      "light-primary-container": {
+        "role": "primary",
+        "displayName": "浅色 · primary-container",
+        "tonalRamp": [
+          "oklch(15% 0.0300 259.5)",
+          "oklch(27% 0.0660 259.5)",
+          "oklch(39% 0.0960 259.5)",
+          "oklch(51% 0.1200 259.5)",
+          "oklch(63% 0.1200 259.5)",
+          "oklch(75% 0.0960 259.5)",
+          "oklch(87% 0.0540 259.5)",
+          "oklch(95% 0.0180 259.5)"
+        ]
+      },
+      "dark-primary-container": {
+        "role": "primary",
+        "displayName": "深色 · primary-container",
+        "tonalRamp": [
+          "oklch(15% 0.0300 250.2)",
+          "oklch(27% 0.0660 250.2)",
+          "oklch(39% 0.0960 250.2)",
+          "oklch(51% 0.1200 250.2)",
+          "oklch(63% 0.1200 250.2)",
+          "oklch(75% 0.0960 250.2)",
+          "oklch(87% 0.0540 250.2)",
+          "oklch(95% 0.0180 250.2)"
+        ]
+      },
+      "light-on-primary": {
+        "role": "primary",
+        "displayName": "浅色 · on-primary",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "dark-on-primary": {
+        "role": "primary",
+        "displayName": "深色 · on-primary",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "light-surface": {
+        "role": "neutral",
+        "displayName": "浅色 · surface",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "dark-surface": {
+        "role": "neutral",
+        "displayName": "深色 · surface",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.0)",
+          "oklch(27% 0.0000 0.0)",
+          "oklch(39% 0.0000 0.0)",
+          "oklch(51% 0.0000 0.0)",
+          "oklch(63% 0.0000 0.0)",
+          "oklch(75% 0.0000 0.0)",
+          "oklch(87% 0.0000 0.0)",
+          "oklch(95% 0.0000 0.0)"
+        ]
+      },
+      "light-on-surface": {
+        "role": "neutral",
+        "displayName": "浅色 · on-surface",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.0)",
+          "oklch(27% 0.0000 0.0)",
+          "oklch(39% 0.0000 0.0)",
+          "oklch(51% 0.0000 0.0)",
+          "oklch(63% 0.0000 0.0)",
+          "oklch(75% 0.0000 0.0)",
+          "oklch(87% 0.0000 0.0)",
+          "oklch(95% 0.0000 0.0)"
+        ]
+      },
+      "dark-on-surface": {
+        "role": "neutral",
+        "displayName": "深色 · on-surface",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "light-surface-container": {
+        "role": "neutral",
+        "displayName": "浅色 · surface-container",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "dark-surface-container": {
+        "role": "neutral",
+        "displayName": "深色 · surface-container",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "light-on-surface-container": {
+        "role": "neutral",
+        "displayName": "浅色 · on-surface-container",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.0)",
+          "oklch(27% 0.0000 0.0)",
+          "oklch(39% 0.0000 0.0)",
+          "oklch(51% 0.0000 0.0)",
+          "oklch(63% 0.0000 0.0)",
+          "oklch(75% 0.0000 0.0)",
+          "oklch(87% 0.0000 0.0)",
+          "oklch(95% 0.0000 0.0)"
+        ]
+      },
+      "dark-on-surface-container": {
+        "role": "neutral",
+        "displayName": "深色 · on-surface-container",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "light-summary": {
+        "role": "neutral",
+        "displayName": "浅色 · summary",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.0)",
+          "oklch(27% 0.0000 0.0)",
+          "oklch(39% 0.0000 0.0)",
+          "oklch(51% 0.0000 0.0)",
+          "oklch(63% 0.0000 0.0)",
+          "oklch(75% 0.0000 0.0)",
+          "oklch(87% 0.0000 0.0)",
+          "oklch(95% 0.0000 0.0)"
+        ]
+      },
+      "dark-summary": {
+        "role": "neutral",
+        "displayName": "深色 · summary",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "light-secondary-variant": {
+        "role": "neutral",
+        "displayName": "浅色 · secondary-variant",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "dark-secondary-variant": {
+        "role": "neutral",
+        "displayName": "深色 · secondary-variant",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "light-on-secondary-variant": {
+        "role": "neutral",
+        "displayName": "浅色 · on-secondary-variant",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "dark-on-secondary-variant": {
+        "role": "neutral",
+        "displayName": "深色 · on-secondary-variant",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "light-disabled-secondary-variant": {
+        "role": "neutral",
+        "displayName": "浅色 · disabled-secondary-variant",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "dark-disabled-secondary-variant": {
+        "role": "neutral",
+        "displayName": "深色 · disabled-secondary-variant",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "light-disabled-on-secondary-variant": {
+        "role": "neutral",
+        "displayName": "浅色 · disabled-on-secondary-variant",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "dark-disabled-on-secondary-variant": {
+        "role": "neutral",
+        "displayName": "深色 · disabled-on-secondary-variant",
+        "tonalRamp": [
+          "oklch(15% 0.0005 145.5)",
+          "oklch(27% 0.0011 145.5)",
+          "oklch(39% 0.0016 145.5)",
+          "oklch(51% 0.0019 145.5)",
+          "oklch(63% 0.0019 145.5)",
+          "oklch(75% 0.0016 145.5)",
+          "oklch(87% 0.0009 145.5)",
+          "oklch(95% 0.0003 145.5)"
+        ]
+      },
+      "light-secondary-container": {
+        "role": "neutral",
+        "displayName": "浅色 · secondary-container",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "dark-secondary-container": {
+        "role": "neutral",
+        "displayName": "深色 · secondary-container",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "light-on-secondary-container": {
+        "role": "neutral",
+        "displayName": "浅色 · on-secondary-container",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      },
+      "dark-on-secondary-container": {
+        "role": "neutral",
+        "displayName": "深色 · on-secondary-container",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.9)",
+          "oklch(27% 0.0000 89.9)",
+          "oklch(39% 0.0000 89.9)",
+          "oklch(51% 0.0000 89.9)",
+          "oklch(63% 0.0000 89.9)",
+          "oklch(75% 0.0000 89.9)",
+          "oklch(87% 0.0000 89.9)",
+          "oklch(95% 0.0000 89.9)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "main": {
+        "displayName": "main",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      },
+      "paragraph": {
+        "displayName": "paragraph",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      },
+      "body1": {
+        "displayName": "body1",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      },
+      "body2": {
+        "displayName": "body2",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      },
+      "button": {
+        "displayName": "button",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      },
+      "footnote1": {
+        "displayName": "footnote1",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      },
+      "footnote2": {
+        "displayName": "footnote2",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      },
+      "headline1": {
+        "displayName": "headline1",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      },
+      "headline2": {
+        "displayName": "headline2",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      },
+      "subtitle": {
+        "displayName": "subtitle",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      },
+      "title1": {
+        "displayName": "title1",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      },
+      "title2": {
+        "displayName": "title2",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      },
+      "title3": {
+        "displayName": "title3",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      },
+      "title4": {
+        "displayName": "title4",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      },
+      "status": {
+        "displayName": "status",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      },
+      "note": {
+        "displayName": "note",
+        "purpose": "MiSans VF 的实际 Miuix 字级；sp 实物以源码为准。"
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "page-enter",
+        "value": "18dp / 240ms / FastOutSlowInEasing / opacity .85 → 1",
+        "purpose": "按进入与返回方向横移；减少动态效果时立即完成，偏好在初始化读取。"
+      }
+    ],
+    "breakpoints": [],
+    "layoutNotes": "居中单列限宽720dp，无新增宽屏断点。frontmatter px是预览名义尺寸；实现使用dp/sp。",
+    "previewNotes": "全部片段无需框架、可注入 shadow DOM；系统主题媒体查询仅用于预览。MiSans 缺席时用 sans-serif。曲线、图标与原生输入是语义等效近似，Compose/Miuix 源码为最终规范。tonalRamp为设计面板合成展示，不是运行时调色板。",
+    "evidence": "源码 + 本机390×844只读安全旁路模拟；已查看浅色首页与深色设置代表图。不得宣称桌面、Android真机、读屏或完整对比度验收。"
+  },
+  "components": [
+    {
+      "name": "主要按钮",
+      "kind": "button",
+      "refersTo": "primary-button-light",
+      "description": "写操作受授权与 busy 控制。 语义等效 HTML/CSS 预览；实际字形、squircle、状态与交互以 Compose/Miuix 源码为准。",
+      "html": "<div class=\"ds-preview\"><button class=\"ds-btn\">保存 DNS 设置</button></div>",
+      "css": ".ds-preview{font-family:\"MiSans VF\",sans-serif;color:#000;background:#fff;border-radius:16px}.ds-preview button,.ds-preview input{font-family:inherit}.ds-preview button{cursor:pointer}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline:2px solid #3482ff;outline-offset:3px}.ds-preview button:hover{filter:brightness(.96)}.ds-preview button:active{filter:brightness(.90)}.ds-preview button:disabled{cursor:default;filter:none}@media(prefers-color-scheme:dark){.ds-preview{color:#f2f2f2;background:#242424}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline-color:#277af7}}.ds-btn{border:0;border-radius:16px;background:#3482ff;color:#fff;font-size:17px;min-width:58px;min-height:40px;padding:13px 16px}.ds-btn:disabled{background:#c2d9ff;color:#fff}@media(prefers-color-scheme:dark){.ds-btn{background:#277af7;color:#fff}.ds-btn:disabled{background:#253e64;color:#677893}}"
+    },
+    {
+      "name": "中性按钮",
+      "kind": "button",
+      "refersTo": "text-button-light",
+      "description": "写操作受授权与 busy 控制。 语义等效 HTML/CSS 预览；实际字形、squircle、状态与交互以 Compose/Miuix 源码为准。",
+      "html": "<div class=\"ds-preview\"><button class=\"ds-btn\">查看暂停选项</button></div>",
+      "css": ".ds-preview{font-family:\"MiSans VF\",sans-serif;color:#000;background:#fff;border-radius:16px}.ds-preview button,.ds-preview input{font-family:inherit}.ds-preview button{cursor:pointer}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline:2px solid #3482ff;outline-offset:3px}.ds-preview button:hover{filter:brightness(.96)}.ds-preview button:active{filter:brightness(.90)}.ds-preview button:disabled{cursor:default;filter:none}@media(prefers-color-scheme:dark){.ds-preview{color:#f2f2f2;background:#242424}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline-color:#277af7}}.ds-btn{border:0;border-radius:16px;background:#f0f0f0;color:#303030;font-size:17px;min-width:58px;min-height:40px;padding:13px 16px}.ds-btn:disabled{background:#f2f2f2;color:#b2b2b2}@media(prefers-color-scheme:dark){.ds-btn{background:#434343;color:#d9d9d9}.ds-btn:disabled{background:#404040;color:#707170}}"
+    },
+    {
+      "name": "文本输入",
+      "kind": "input",
+      "refersTo": "input-light",
+      "description": "原生 TextField 的文字与中性表面。 语义等效 HTML/CSS 预览；实际字形、squircle、状态与交互以 Compose/Miuix 源码为准。",
+      "html": "<div class=\"ds-preview\"><label class=\"ds-field\">公共 DoH 一<input class=\"ds-input\" value=\"https://dns.alidns.com/dns-query\"/></label></div>",
+      "css": ".ds-preview{font-family:\"MiSans VF\",sans-serif;color:#000;background:#fff;border-radius:16px}.ds-preview button,.ds-preview input{font-family:inherit}.ds-preview button{cursor:pointer}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline:2px solid #3482ff;outline-offset:3px}.ds-preview button:hover{filter:brightness(.96)}.ds-preview button:active{filter:brightness(.90)}.ds-preview button:disabled{cursor:default;filter:none}@media(prefers-color-scheme:dark){.ds-preview{color:#f2f2f2;background:#242424}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline-color:#277af7}}.ds-field{display:grid;gap:8px;padding:16px;border-radius:16px;background:#f0f0f0;color:#0009;font-size:13px}.ds-input{border:0;background:transparent;color:#000;font-size:17px;width:100%;min-width:0}.ds-input:disabled{opacity:.45}@media(prefers-color-scheme:dark){.ds-field{background:#434343;color:#ffffff80}.ds-input{color:#f2f2f2}}"
+    },
+    {
+      "name": "设置分组与箭头行",
+      "kind": "card",
+      "refersTo": "group-light",
+      "description": "普通行没有彩色图标块和分隔线。 语义等效 HTML/CSS 预览；实际字形、squircle、状态与交互以 Compose/Miuix 源码为准。",
+      "html": "<div class=\"ds-preview\"><button class=\"ds-row\"><span class=\"ds-row-copy\"><strong>DNS 设置</strong><span>加密上游、Bootstrap 与 IPv6</span></span><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"m9 5 7 7-7 7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></button><button class=\"ds-row\"><span class=\"ds-row-copy\"><strong>网络诊断</strong><span>接管覆盖、系统 DNS 与代理状态</span></span><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"m9 5 7 7-7 7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></button></div>",
+      "css": ".ds-preview{font-family:\"MiSans VF\",sans-serif;color:#000;background:#fff;border-radius:16px}.ds-preview button,.ds-preview input{font-family:inherit}.ds-preview button{cursor:pointer}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline:2px solid #3482ff;outline-offset:3px}.ds-preview button:hover{filter:brightness(.96)}.ds-preview button:active{filter:brightness(.90)}.ds-preview button:disabled{cursor:default;filter:none}@media(prefers-color-scheme:dark){.ds-preview{color:#f2f2f2;background:#242424}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline-color:#277af7}}.ds-row{display:flex;width:100%;align-items:center;gap:8px;padding:16px;border:0;background:transparent;text-align:left;color:inherit;min-height:56px}.ds-row-copy{display:grid;flex:1}.ds-row strong{font-size:17px;font-weight:500}.ds-row-copy>span{font-size:14px;color:#0009}.ds-row svg{color:#0006}@media(prefers-color-scheme:dark){.ds-row-copy>span{color:#ffffff80}.ds-row svg{color:#fff6}}"
+    },
+    {
+      "name": "末尾单选行",
+      "kind": "custom",
+      "refersTo": "group-light",
+      "description": "外观、预设及暂停时长共用 RadioButtonPreference。 语义等效 HTML/CSS 预览；实际字形、squircle、状态与交互以 Compose/Miuix 源码为准。",
+      "html": "<div class=\"ds-preview\"><label class=\"ds-choice\"><span><strong>跟随系统</strong><small>自动使用设备的浅色或深色外观</small></span><input class=\"ds-radio\" type=\"radio\" name=\"ds-theme\" checked/></label><label class=\"ds-choice\"><span><strong>浅色</strong><small>浅灰背景与白色分组</small></span><input class=\"ds-radio\" type=\"radio\" name=\"ds-theme\"/></label></div>",
+      "css": ".ds-preview{font-family:\"MiSans VF\",sans-serif;color:#000;background:#fff;border-radius:16px}.ds-preview button,.ds-preview input{font-family:inherit}.ds-preview button{cursor:pointer}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline:2px solid #3482ff;outline-offset:3px}.ds-preview button:hover{filter:brightness(.96)}.ds-preview button:active{filter:brightness(.90)}.ds-preview button:disabled{cursor:default;filter:none}@media(prefers-color-scheme:dark){.ds-preview{color:#f2f2f2;background:#242424}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline-color:#277af7}}.ds-choice{display:flex;align-items:center;gap:16px;padding:16px;cursor:pointer}.ds-choice>span{flex:1;display:grid}.ds-choice strong{font-size:17px;font-weight:500}.ds-choice small{font-size:14px;color:#0009}.ds-radio{width:22px;height:22px;accent-color:#3482ff}.ds-choice:hover{background:#00000005}.ds-radio:focus-visible{outline:2px solid #3482ff;outline-offset:3px}@media(prefers-color-scheme:dark){.ds-choice small{color:#ffffff80}.ds-radio{accent-color:#277af7}.ds-choice:hover{background:#ffffff08}}"
+    },
+    {
+      "name": "IPv6 开关行",
+      "kind": "custom",
+      "refersTo": "group-light",
+      "description": "SwitchPreference 的整行标签与开关含义保持一致。 语义等效 HTML/CSS 预览；实际字形、squircle、状态与交互以 Compose/Miuix 源码为准。",
+      "html": "<div class=\"ds-preview\"><label class=\"ds-switch-row\"><span><strong>尝试 IPv6 接管</strong><small>能力不足时放行 IPv6 流量</small></span><input class=\"ds-switch\" role=\"switch\" type=\"checkbox\" checked/></label></div>",
+      "css": ".ds-preview{font-family:\"MiSans VF\",sans-serif;color:#000;background:#fff;border-radius:16px}.ds-preview button,.ds-preview input{font-family:inherit}.ds-preview button{cursor:pointer}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline:2px solid #3482ff;outline-offset:3px}.ds-preview button:hover{filter:brightness(.96)}.ds-preview button:active{filter:brightness(.90)}.ds-preview button:disabled{cursor:default;filter:none}@media(prefers-color-scheme:dark){.ds-preview{color:#f2f2f2;background:#242424}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline-color:#277af7}}.ds-switch-row{display:flex;align-items:center;gap:16px;padding:16px;cursor:pointer}.ds-switch-row>span{display:grid;flex:1}.ds-switch-row strong{font-size:17px;font-weight:500}.ds-switch-row small{font-size:14px;color:#0009}.ds-switch{appearance:none;width:50px;height:28px;background:#ddd;border-radius:20px;position:relative;cursor:pointer}.ds-switch:before{content:\"\";position:absolute;width:22px;height:22px;left:3px;top:3px;border-radius:50%;background:white}.ds-switch:checked{background:#3482ff}.ds-switch:checked:before{left:25px}.ds-switch:hover{filter:brightness(.96)}.ds-switch:disabled{opacity:.45}.ds-switch:focus-visible{outline:2px solid #3482ff;outline-offset:3px}@media(prefers-color-scheme:dark){.ds-switch-row small{color:#ffffff80}.ds-switch:checked{background:#277af7}}"
+    },
+    {
+      "name": "安全旁路状态卡",
+      "kind": "card",
+      "refersTo": "form-light",
+      "description": "淡错误底色、大背景图标与明确故障文字。 语义等效 HTML/CSS 预览；实际字形、squircle、状态与交互以 Compose/Miuix 源码为准。",
+      "html": "<div class=\"ds-preview\"><section class=\"ds-status\"><svg class=\"ds-status-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M12 10v8m0-12v1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg><strong>安全旁路</strong><p>当前未接管 DNS，请查看网络诊断。</p><p class=\"ds-error\">模拟运行：未执行 Android DNS 发现、私人 DNS 或网络接管</p><button class=\"ds-status-btn\">查看暂停选项</button></section></div>",
+      "css": ".ds-preview{font-family:\"MiSans VF\",sans-serif;color:#000;background:#fff;border-radius:16px}.ds-preview button,.ds-preview input{font-family:inherit}.ds-preview button{cursor:pointer}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline:2px solid #3482ff;outline-offset:3px}.ds-preview button:hover{filter:brightness(.96)}.ds-preview button:active{filter:brightness(.90)}.ds-preview button:disabled{cursor:default;filter:none}@media(prefers-color-scheme:dark){.ds-preview{color:#f2f2f2;background:#242424}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline-color:#277af7}}.ds-status{position:relative;overflow:hidden;padding:16px;border-radius:16px;background:rgb(253 246 244 / 45%)}.ds-status>strong{position:relative;font-size:20px;font-weight:600}.ds-status p{position:relative;font-size:14px;color:#0009;margin:10px 0}.ds-status .ds-error{color:#c5392b;font-size:13px}.ds-status-icon{position:absolute;width:136px;height:136px;right:-28px;bottom:-22px;color:#c5392b;opacity:.1}.ds-status-btn{position:relative;background:#f0f0f0;color:#303030;font-size:17px;border:0;border-radius:16px;padding:13px 16px}@media(prefers-color-scheme:dark){.ds-status{background:rgb(46 6 3 / 45%)}.ds-status p{color:#ffffff80}.ds-status .ds-error,.ds-status-icon{color:#f12522}.ds-status-btn{background:#434343;color:#d9d9d9}}"
+    },
+    {
+      "name": "主页面底栏",
+      "kind": "nav",
+      "refersTo": "group-light",
+      "description": "四项标准导航，详情隐藏，无分隔线。 语义等效 HTML/CSS 预览；实际字形、squircle、状态与交互以 Compose/Miuix 源码为准。",
+      "html": "<nav class=\"ds-preview ds-nav\" aria-label=\"主导航\"><button class=\"ds-nav-item\" aria-current=\"page\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m3 11 9-8 9 8v10h-6v-7H9v7H3z\"/></svg><span>首页</span></button><button class=\"ds-nav-item\" ><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M7 5h14M7 12h14M7 19h14M2 5h1M2 12h1M2 19h1\"/></svg><span>查询日志</span></button><button class=\"ds-nav-item\" ><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 4h18l-7 9v8l-4-2v-6z\"/></svg><span>过滤规则</span></button><button class=\"ds-nav-item\" ><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m12 2 9 5v10l-9 5-9-5V7z\"/><circle cx=\"12\" cy=\"12\" r=\"4\"/></svg><span>设置</span></button></nav>",
+      "css": ".ds-preview{font-family:\"MiSans VF\",sans-serif;color:#000;background:#fff;border-radius:16px}.ds-preview button,.ds-preview input{font-family:inherit}.ds-preview button{cursor:pointer}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline:2px solid #3482ff;outline-offset:3px}.ds-preview button:hover{filter:brightness(.96)}.ds-preview button:active{filter:brightness(.90)}.ds-preview button:disabled{cursor:default;filter:none}@media(prefers-color-scheme:dark){.ds-preview{color:#f2f2f2;background:#242424}.ds-preview button:focus-visible,.ds-preview input:focus-visible{outline-color:#277af7}}.ds-nav{display:flex;border-radius:0;background:#f7f7f7;padding:8px 0}.ds-nav-item{flex:1;display:grid;justify-items:center;gap:2px;background:transparent;border:0;color:#0006;font-size:12px;padding:0 4px}.ds-nav-item svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.5}.ds-nav-item[aria-current]{color:#000;font-weight:600}.ds-nav-item[aria-current] svg{stroke-width:2.5}@media(prefers-color-scheme:dark){.ds-nav{background:#000}.ds-nav-item{color:#fff6}.ds-nav-item[aria-current]{color:#f2f2f2}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "InstallerX 式本机设置",
+    "overview": "整个 App 延续主人选定的 InstallerX-Revived Miuix 体验：首页、日志、规则、设置、登录和暂停弹层共用同一套主题、文字、卡片与操作控件。以克制的系统设置分组、清晰的标题和真实状态建立秩序，服务本机 DNS 管理与随时恢复网络的需求。\n\n实现使用 Kotlin/JS Compose Canvas、真实 Miuix 0.9.4 及同版 miuix-preference。视觉参考固定为 InstallerX-Revived 提交 `2bdd19dc552a3742b7b563dd9fa9a74ce56bb644`；具体映射见 `docs/UI_REFERENCE.md`。应用源码是最终规范来源；sidecar 的 HTML/CSS 仅为可渲染的语义等效预览，不替代 Compose 实物。",
+    "keyCharacteristics": [
+      "全 App 一致的 Miuix 系统设置语言。",
+      "紧凑单列、圆润分组、无装饰分隔线的普通列表。",
+      "首页淡语义状态底色与低透明度背景图标。",
+      "离线 MiSans、三种外观模式、支持减少动态效果。",
+      "旁路、未知、只读与故障必须清楚可见。"
+    ],
+    "rules": [],
+    "dos": [
+      "**Do** 将整个 App 的新页面继续建立在同版 Miuix 组件、MiSans 与三种外观模式上。",
+      "**Do** 保持紧凑页边距、无逐行分隔线的圆润分组与真实语义状态。",
+      "**Do** 为只读、加载、空态、失联和错误保留明确文字与可用退出路径。",
+      "**Do** 将源码视为规范来源，并区分设计面板近似预览与 Compose 实物。"
+    ],
+    "donts": [
+      "**Don't** 恢复普通列表的彩色图标块、旧宽间距或详情页底栏。",
+      "**Don't** 用样式、演示数据或成功通知暗示真实接管、网络可用或完整覆盖。",
+      "**Don't** 承诺 Android 原生触觉、系统动态取色、原生模糊或预测返回。",
+      "**Don't** 把 390×844 本机只读安全旁路模拟截图当作桌面、Android 真机、字体缩放、精确对比度或读屏验收。"
+    ]
+  }
+}
